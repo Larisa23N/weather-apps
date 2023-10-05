@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Cinzel", serif;
+}
+
+h1,
+h2 ,
+h4,
+h5{
+    color:#878787;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+li{
+    color:#878787;
+    list-style: none;
+    display:block;
+    font-size: 16px;
+    font-weight: 100px;
+    line-height: 19px;
+    text-align: left;
+    margin: 0;
+}
+
+.col-4 {
+    color: #878787;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    top: 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn-success {
+    position: fixed;
+    right: 580px;
+    top: 50;
+}
+
+form {
+    size: 5px;
+}
+
+.col-5{
+    color: #878787;
+    padding: 20px;
+    font-size: 16px;
+    margin: 3px;
+    top: 0;
+}
+.weather-app{
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+}
