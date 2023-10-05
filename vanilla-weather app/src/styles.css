@@ -34,7 +34,7 @@ li{
 }
 
 .col-4 {
-    color: #878787;
+    color: black;
     padding: 10px;
     margin: 0 auto;
     font-size: 16px;
@@ -51,6 +51,7 @@ h5 {
     position: fixed;
     right: 580px;
     top: 50;
+    line-height: 10px;
 }
 
 form {
