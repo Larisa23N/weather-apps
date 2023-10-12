@@ -21,9 +21,7 @@
 <body>
     <div class="container">
         <div class="weather-app">
-<h1 id="city">
-    Sandton
-</h1>
+<h1 id="city"></h1>
 <h2>
     <form id="search-form">
         <input type="text" placeholder="Type city name" , autocomplete="off" autofocus="on
@@ -43,32 +41,33 @@ Thursday
         <li>
 11:00
         </li>
+
     </ul>
   
 </h3>
-<h4>
+
 <div class ="row">
 <div class="col-4">
-
-    <span class="temperature" id="temperature">26</span>
-    <span class="units">
+    <div class ="clearfix weather-temperature">
+        <img src="" alt="Clear" id="icon" class="float-left" />
+        <div class="float-left">
+        <strong id="temperature"></strong>
+        <span class="units">
         <a href="#" id="celsius-link">°C</a> |
         <a href="#" id="fahrenheit-link">°F</a>
     </span>
-    <br />
-    Sunny
-    <br />
-    ☀️
+    
+</div>
+</div>
 </div>
     <div class="col-5">
-        Percipitation:0%
-        <br />
-        Humidity:9%
-        <br />
-        Wind:21km/h
+        <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id ="wind"></span> km/h</li>
+       </ul>
     </div>
-</h4>
-<ul>
+</div>
+
     <h5>
 
         <div class="row">
